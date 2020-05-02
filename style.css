@@ -1,0 +1,706 @@
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    
+    * {
+        background-color: #d2f1f6;
+        background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
+        background-size: 150px auto;
+        background-repeat: repeat;
+        border-radius: 20px;
+        /* background-blend-mode: screen; */
+
+    }
+
+
+    .border {
+        width: 85%;
+        min-height: 750px;
+        border: 1px solid black;
+        margin-left: 10%;
+        border-radius: 20px;
+    }
+
+    .theme {
+        background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
+        background-size: 150px auto;
+        background-repeat: repeat;
+        background-blend-mode: screen;
+    }
+
+
+    .nav {
+        display: flex;
+        flex-flow: row;
+        background-color: #8dca69;
+        background-image: url("resources/chota-bheem-cartoon-drawing-34.jpg");
+        background-size: contain;
+        background-blend-mode:  multiply;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .nav > div {
+        border: 1px solid black;
+        height: 60px;
+        width: 25%;
+        margin: 15px;
+        background-color: #489e7e;
+        border-radius: 100px;
+        background-image: url("resources/chota-bheem-cartoon-drawing-34.jpg");
+        background-size: contain;
+        background-blend-mode:  multiply;
+    }
+
+    #index > .border > .nav > div:nth-last-child(4) {
+        background-color: #e9772b;
+    }
+
+    #page_2 > .border > .nav > div:nth-last-child(3) {
+        background-color: #b479e4
+    }
+
+    #page_3 > .border > .nav > div:nth-last-child(2) {
+        background-color: #4b508d
+    }
+
+    #page_4 > .border > .nav > div:nth-last-child(1) {
+        background-color: #572a42
+    }
+
+    .nav > div > a {
+        text-align: center;
+        text-decoration: none;
+        color: #0B4676;
+    }
+    .nav > div > a > div {
+        border: 1px solid black;
+        font-family: 'Lemonada', cursive;
+        font-size: 13px;
+        margin: 15px 0px;
+        background-color: #cca571;
+        border-radius: 20px;
+        width: 100%; 
+        background-image: none;
+    }
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px 250px;
+        grid-template-areas:    "a"
+                                "b"
+                                "c"
+                                "c" 
+                                "d";
+        /* border: solid black; */
+        gap: 50px 30px;
+        margin: 40px 15px;
+    }
+
+    #page_3 > .border > .grid > div {
+        border: 10px solid #4b508d;
+        background-image: none;
+    }
+
+    .grid > div:nth-child(1) {
+        grid-area: a;
+    }
+    .grid > div:nth-child(2) {
+        grid-area: b;
+    }
+    .grid > div:nth-child(3) {
+        grid-area: c;
+    }
+    .grid > div:nth-child(4) {
+        grid-area: d;
+    }
+
+
+    .characters {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 5%;
+    }
+
+    .characters > img {
+        width: 150px;
+        height: 150px;
+        border-radius: 90px;
+        padding: 10px;
+        background-color: #b479e4;
+        background-image: none;
+        margin: 20px
+    }
+
+    .characters  p {
+        font-family: 'Lemonada', cursive;
+        width: 300px;
+        color: #f27820;
+        text-shadow: 1px 1px 1px black;
+        /* border:solid black; */
+    } 
+
+    .characters  h1 {
+        font-size: 30px;
+        font-family: 'Lemonada', cursive;
+        color: #f8e01b;
+        text-shadow: 1px 1px 1px black;
+        width: 300px;
+        /* border: solid black; */
+    } 
+
+    .textCont {
+        text-align: center;
+        float: left;
+        
+    }
+    .title {
+        width: 450px;
+        font-size: 40px;
+        font-family: 'Lemonada', cursive;
+        /* border: solid black; */
+        margin-bottom: 0px;
+        padding-top: 0px;
+        color: #f8e01b;
+        text-shadow: 5px 2px 2px black;
+        margin-left: 15%;
+        margin-top: 0px;
+
+
+    }
+
+    #bhemStatue {
+        width: auto; height: 300px; margin: 0px 40%; float: left;
+    }
+
+    #pteam {
+        width:500px; height: 200px; margin:5px 7%; border: 10px solid #8dca69;
+    }
+
+    .info {
+        width: 450px;
+        /* border: solid black; */
+        margin-top: 0px;
+        font-family: 'Lemonada', cursive;
+        font-size: 15px;
+        color: #f27820;
+        text-shadow: 1px 0px 0px black;
+        margin-left: 15%;
+    }
+
+    .clear {
+        clear: left;
+    }
+    
+
+    .showCase {
+        width: 500px;
+        min-height: 150px;
+        /* height: 300px; */
+        /* margin: 20px; */
+        text-align: center;
+        color: #0B4676;
+        border-radius: 50px;
+        border: solid #572a42;
+        font-family: 'Lemonada', cursive;
+        float: left;
+        margin-left: 40px;
+
+    }
+
+    .showCase > h1 {
+        color: #f8e01b;
+        text-shadow: 5px 2px 2px black;
+        font-size: 22px;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .showCase > p {
+        color: #f27820;
+        /* text-shadow: 1px 0px 0px black; */
+        font-size: 12px;
+        /* margin: 0px; */
+    }
+
+    #page_4 img {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        border: 15px solid #572a42;
+        float: left;
+        margin: 20px 30px;
+
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    * {
+        background-color: #d2f1f6;
+        background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
+        background-size: 150px auto;
+        background-repeat: repeat;
+        border-radius: 20px;
+        /* background-blend-mode: screen; */
+
+    }
+
+
+    .border {
+        width: 85%;
+        min-height: 750px;
+        border: 1px solid black;
+        margin-left: 10%;
+        border-radius: 20px;
+    }
+
+    .theme {
+        background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
+        background-size: 150px auto;
+        background-repeat: repeat;
+        background-blend-mode: screen;
+    }
+
+
+    .nav {
+        display: flex;
+        flex-flow: row;
+        background-color: #8dca69;
+        background-image: url("resources/chota-bheem-cartoon-drawing-34.jpg");
+        background-size: contain;
+        background-blend-mode:  multiply;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nav > div {
+        border: 1px solid black;
+        height: 70px;
+        width: 25%;
+        margin: 15px;
+        background-color: #489e7e;
+        border-radius: 100px;
+        background-image: url("resources/chota-bheem-cartoon-drawing-34.jpg");
+        background-size: contain;
+        background-blend-mode:  multiply;
+    }
+
+    #index > .border > .nav > div:nth-last-child(4) {
+        background-color: #e9772b;
+    }
+
+    #page_2 > .border > .nav > div:nth-last-child(3) {
+        background-color: #b479e4
+    }
+
+    #page_3 > .border > .nav > div:nth-last-child(2) {
+        background-color: #4b508d
+    }
+
+    #page_4 > .border > .nav > div:nth-last-child(1) {
+        background-color: #572a42
+    }
+
+    .nav > div > a {
+        text-align: center;
+        text-decoration: none;
+        color: #0B4676;
+    }
+    .nav > div > a > div {
+        border: 1px solid black;
+        font-family: 'Lemonada', cursive;
+        font-size: 19px;
+        margin: 15px 0px;
+        background-color: #cca571;
+        border-radius: 20px;
+        width: 100%; 
+        background-image: none;
+    }
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px 250px;
+        grid-template-areas:    "a"
+                                "b"
+                                "c"
+                                "c" 
+                                "d";
+        /* border: solid black; */
+        gap: 50px 30px;
+        margin: 40px 100px;
+    }
+
+    #page_3 > .border > .grid > div {
+        border: 10px solid #4b508d;
+        background-image: none;
+    }
+
+    .grid > div:nth-child(1) {
+        grid-area: a;
+    }
+    .grid > div:nth-child(2) {
+        grid-area: b;
+    }
+    .grid > div:nth-child(3) {
+        grid-area: c;
+    }
+    .grid > div:nth-child(4) {
+        grid-area: d;
+    }
+
+
+    .characters {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 13%;
+    }
+
+    .characters > img {
+        width: 200px;
+        height: 200px;
+        border-radius: 90px;
+        padding: 10px;
+        background-color: #b479e4;
+        background-image: none;
+        margin: 20px
+    }
+
+    .characters  p {
+        font-family: 'Lemonada', cursive;
+        width: 300px;
+        color: #f27820;
+        text-shadow: 1px 1px 1px black;
+        /* border:solid black; */
+    } 
+
+    .characters  h1 {
+        font-family: 'Lemonada', cursive;
+        color: #f8e01b;
+        text-shadow: 1px 1px 1px black;
+        /* border: solid black; */
+        width: 300px;
+    } 
+
+    .textCont {
+        text-align: center;
+        float: left;
+        
+    }
+    .title {
+        width: 700px;
+        font-size: 50px;
+        font-family: 'Lemonada', cursive;
+        /* border: solid black; */
+        margin-bottom: 0px;
+        padding-top: 0px;
+        color: #f8e01b;
+        text-shadow: 5px 2px 2px black;
+        margin-left: 5%;
+
+
+    }
+
+    #bhemStatue {
+        width: auto; height: 600px; margin: 0px 35%; float: left;
+    }
+
+    #pteam {
+        width:500px; height: 200px; margin:5px 100px; border: 10px solid #8dca69;
+    }
+
+    .info {
+        width: 700px;
+        /* border: solid black; */
+        margin-top: 0px;
+        font-family: 'Lemonada', cursive;
+        font-size: 20px;
+        color: #f27820;
+        text-shadow: 1px 0px 0px black;
+        margin-left: 5%;
+    }
+
+    .clear {
+        clear: left;
+    }
+    
+    .showCase {
+        width: 600px;
+        min-height: 150px;
+        /* height: 300px; */
+        margin: 20px;
+        text-align: center;
+        color: #0B4676;
+        border-radius: 50px;
+        border: solid #572a42;
+        font-family: 'Lemonada', cursive;
+        float: left;
+        margin-left: 80px;
+
+    }
+
+    .showCase > h1 {
+        color: #f8e01b;
+        text-shadow: 5px 2px 2px black;
+        font-size: 25px;
+        /* padding: 10px; */
+        /* margin: 10px; */
+    }
+
+    .showCase > p {
+        color: #f27820;
+        /* text-shadow: 1px 0px 0px black; */
+        font-size: 15px;
+        /* margin: 0px; */
+    }
+
+    #page_4 img {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        border: 15px solid #572a42;
+        float: left;
+        margin: 20px 75px;
+
+    }
+
+
+
+
+
+} 
+
+
+
+
+@media only screen and (min-width: 992px) { 
+
+    * {
+        background-color: #d2f1f6;
+        background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
+        background-size: 150px auto;
+        background-repeat: repeat;
+        border-radius: 20px;
+        /* background-blend-mode: screen; */
+
+    }
+
+
+    .border {
+        width: 85%;
+        min-height: 750px;
+        border: 1px solid black;
+        margin-left: 10%;
+        border-radius: 20px;
+    }
+
+    .theme {
+        background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
+        background-size: 150px auto;
+        background-repeat: repeat;
+        background-blend-mode: screen;
+    }
+
+
+    .nav {
+        display: flex;
+        flex-flow: row;
+        background-color: #8dca69;
+        background-image: url("resources/chota-bheem-cartoon-drawing-34.jpg");
+        background-size: contain;
+        background-blend-mode:  multiply;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nav > div {
+        border: 1px solid black;
+        height: 70px;
+        width: 25%;
+        margin: 15px;
+        background-color: #489e7e;
+        border-radius: 100px;
+        background-image: url("resources/chota-bheem-cartoon-drawing-34.jpg");
+        background-size: contain;
+        background-blend-mode:  multiply;
+    }
+
+    #index > .border > .nav > div:nth-last-child(4) {
+        background-color: #e9772b;
+    }
+
+    #page_2 > .border > .nav > div:nth-last-child(3) {
+        background-color: #b479e4
+    }
+
+    #page_3 > .border > .nav > div:nth-last-child(2) {
+        background-color: #4b508d
+    }
+
+    #page_4 > .border > .nav > div:nth-last-child(1) {
+        background-color: #572a42
+    }
+
+    .nav > div > a {
+        text-align: center;
+        text-decoration: none;
+        color: #0B4676;
+    }
+    .nav > div > a > div {
+        border: 1px solid black;
+        font-family: 'Lemonada', cursive;
+        font-size: 20px;
+        margin: 15px 25px;
+        background-color: #cca571;
+        border-radius: 20px;
+        width: 80%; 
+        background-image: none;
+    }
+
+
+    #bhemStatue {
+        width: auto; height: 600px; margin: 0px 15px; float: left;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px 250px;
+        grid-template-areas:    "a b"
+                                "c d";
+        /* border: solid black; */
+        gap: 50px 30px;
+        margin: 40px 20px;
+    }
+
+    #page_3 > .border > .grid > div {
+        border: 10px solid #4b508d;
+        background-image: none;
+    }
+
+    .grid > div:nth-child(1) {
+        grid-area: a;
+    }
+    .grid > div:nth-child(2) {
+        grid-area: b;
+    }
+    .grid > div:nth-child(3) {
+        grid-area: c;
+    }
+    .grid > div:nth-child(4) {
+        grid-area: d;
+    }
+
+
+    .characters {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 0%;
+    }
+
+    .characters > img {
+        width: 200px;
+        height: 200px;
+        border-radius: 90px;
+        padding: 10px;
+        background-color: #b479e4;
+        background-image: none;
+        margin: 20px
+    }
+
+    .characters  p {
+        font-family: 'Lemonada', cursive;
+        width: 300px;
+        color: #f27820;
+        text-shadow: 1px 1px 1px black;
+        /* border:solid black; */
+    } 
+
+    .characters  h1 {
+        font-family: 'Lemonada', cursive;
+        color: #f8e01b;
+        text-shadow: 1px 1px 1px black;
+        /* border: solid black; */
+        width: 300px;
+    } 
+
+    .textCont {
+        text-align: center;
+        float: left;
+        
+    }
+    .title {
+        width: 900px;
+        font-size: 50px;
+        font-family: 'Lemonada', cursive;
+        /* border: solid black; */
+        margin-bottom: 0px;
+        padding-top: 0px;
+        color: #f8e01b;
+        text-shadow: 5px 2px 2px black;
+
+
+    }
+
+    .info {
+        width: 900px;
+        /* border: solid black; */
+        margin-top: 0px;
+        font-family: 'Lemonada', cursive;
+        font-size: 20px;
+        color: #f27820;
+        text-shadow: 1px 0px 0px black;
+    }
+
+    .showCase {
+        width: 350px;
+        height: 300px;
+        margin: 20px;
+        text-align: center;
+        color: #0B4676;
+        border-radius: 50px;
+        border: solid #572a42;
+        font-family: 'Lemonada', cursive;
+        float: left;
+
+    }
+
+    .showCase > h1 {
+        color: #f8e01b;
+        text-shadow: 5px 2px 2px black;
+        font-size: 25px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .showCase > p {
+        color: #f27820;
+        /* text-shadow: 1px 0px 0px black; */
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    #page_4 img {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        border: 15px solid #572a42;
+        float: left;
+        margin: 20px 30px;
+
+    }
+
+    #pteam {
+        width:500px; height: 200px; margin:5px 180px; border: 10px solid #8dca69;
+    }
+
+}
+
