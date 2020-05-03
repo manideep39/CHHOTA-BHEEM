@@ -14,7 +14,7 @@
     .border {
         width: 85%;
         min-height: 750px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin-left: 10%;
         border-radius: 20px;
     }
@@ -40,7 +40,7 @@
 
 
     .nav > div {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         height: 60px;
         width: 25%;
         margin: 15px;
@@ -51,29 +51,62 @@
         background-blend-mode:  multiply;
     }
 
-    #index > .border > .nav > div:nth-last-child(4) {
+    #index > .border > .nav > div:nth-child(1) {
         background-color: #e9772b;
     }
 
-    #page_2 > .border > .nav > div:nth-last-child(3) {
+    .border > .nav > div:nth-child(1):hover {
+        background-color: #e9772b;
+    }
+
+    .border > .nav > div:nth-child(1) > a:active {
+        color: #e9772b;
+    }
+
+    #page_2 > .border > .nav > div:nth-child(2) {
         background-color: #b479e4
     }
 
-    #page_3 > .border > .nav > div:nth-last-child(2) {
+    .border > .nav > div:nth-child(2):hover {
+        background-color: #b479e4;
+    }
+
+    .border > .nav > div:nth-child(2) > a:active {
+        color: #b479e4;
+    }
+
+    #page_3 > .border > .nav > div:nth-child(3) {
         background-color: #4b508d
     }
 
-    #page_4 > .border > .nav > div:nth-last-child(1) {
+    .border > .nav > div:nth-child(3):hover {
+        background-color: #4b508d;
+    }
+
+    .border > .nav > div:nth-child(3) > a:active {
+        color: #4b508d;
+    }
+
+    #page_4 > .border > .nav > div:nth-child(4) {
         background-color: #572a42
+    }
+
+    .border > .nav > div:nth-child(4):hover {
+        background-color: #572a42;
+    }
+
+    .border > .nav > div:nth-child(4) > a:active {
+        color: #572a42;
     }
 
     .nav > div > a {
         text-align: center;
         text-decoration: none;
-        color: #0B4676;
+        /* color: #0B4676; */
+        color: #0D5F33;
     }
     .nav > div > a > div {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         font-family: 'Lemonada', cursive;
         font-size: 13px;
         margin: 15px 0px;
@@ -256,7 +289,7 @@
     .border {
         width: 85%;
         min-height: 750px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin-left: 10%;
         border-radius: 20px;
     }
@@ -281,7 +314,7 @@
     }
 
     .nav > div {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         height: 70px;
         width: 25%;
         margin: 15px;
@@ -292,29 +325,62 @@
         background-blend-mode:  multiply;
     }
 
-    #index > .border > .nav > div:nth-last-child(4) {
+    #index > .border > .nav > div:nth-child(1) {
         background-color: #e9772b;
     }
 
-    #page_2 > .border > .nav > div:nth-last-child(3) {
+    .border > .nav > div:nth-child(1):hover {
+        background-color: #e9772b;
+    }
+
+    .border > .nav > div:nth-child(1) > a:active {
+        color: #e9772b;
+    }
+
+    #page_2 > .border > .nav > div:nth-child(2) {
         background-color: #b479e4
     }
 
-    #page_3 > .border > .nav > div:nth-last-child(2) {
+    .border > .nav > div:nth-child(2):hover {
+        background-color: #b479e4;
+    }
+
+    .border > .nav > div:nth-child(2) > a:active {
+        color: #b479e4;
+    }
+
+    #page_3 > .border > .nav > div:nth-child(3) {
         background-color: #4b508d
     }
 
-    #page_4 > .border > .nav > div:nth-last-child(1) {
+    .border > .nav > div:nth-child(3):hover {
+        background-color: #4b508d;
+    }
+
+    .border > .nav > div:nth-child(3) > a:active {
+        color: #4b508d;
+    }
+
+    #page_4 > .border > .nav > div:nth-child(4) {
         background-color: #572a42
+    }
+
+    .border > .nav > div:nth-child(4):hover {
+        background-color: #572a42;
+    }
+
+    .border > .nav > div:nth-child(4) > a:active {
+        color: #572a42;
     }
 
     .nav > div > a {
         text-align: center;
         text-decoration: none;
-        color: #0B4676;
+        /* color: #0B4676; */
+        color: #0D5F33;
     }
     .nav > div > a > div {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         font-family: 'Lemonada', cursive;
         font-size: 19px;
         margin: 15px 0px;
@@ -497,7 +563,7 @@
     .border {
         width: 85%;
         min-height: 750px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin-left: 10%;
         border-radius: 20px;
     }
@@ -522,9 +588,9 @@
     }
 
     .nav > div {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         height: 70px;
-        width: 25%;
+        width: 100%;
         margin: 15px;
         background-color: #489e7e;
         border-radius: 100px;
@@ -533,29 +599,64 @@
         background-blend-mode:  multiply;
     }
 
-    #index > .border > .nav > div:nth-last-child(4) {
+    #index > .border > .nav > div:nth-child(1) {
         background-color: #e9772b;
     }
 
-    #page_2 > .border > .nav > div:nth-last-child(3) {
+    .border > .nav > div:nth-child(1):hover {
+        background-color: #e9772b;
+    }
+
+    .border > .nav > div:nth-child(1) > a:active {
+        color: #e9772b;
+    }
+
+    #page_2 > .border > .nav > div:nth-child(2) {
         background-color: #b479e4
     }
 
-    #page_3 > .border > .nav > div:nth-last-child(2) {
+    .border > .nav > div:nth-child(2):hover {
+        background-color: #b479e4;
+    }
+
+    .border > .nav > div:nth-child(2) > a:active {
+        color: #b479e4;
+    }
+
+    #page_3 > .border > .nav > div:nth-child(3) {
         background-color: #4b508d
     }
 
-    #page_4 > .border > .nav > div:nth-last-child(1) {
+    .border > .nav > div:nth-child(3):hover {
+        background-color: #4b508d;
+    }
+
+    .border > .nav > div:nth-child(3) > a:active {
+        color: #4b508d;
+    }
+
+    #page_4 > .border > .nav > div:nth-child(4) {
         background-color: #572a42
+    }
+
+    .border > .nav > div:nth-child(4):hover {
+        background-color: #572a42;
+    }
+
+    .border > .nav > div:nth-child(4) > a:active {
+        color: #572a42;
     }
 
     .nav > div > a {
         text-align: center;
         text-decoration: none;
-        color: #0B4676;
+        color: #0D5F33;
+        /* 0B4676 */
     }
+
+
     .nav > div > a > div {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         font-family: 'Lemonada', cursive;
         font-size: 20px;
         margin: 15px 25px;
