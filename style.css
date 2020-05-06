@@ -1,7 +1,7 @@
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     
     * {
-        background-color: #d2f1f6;
+        /* background-color: #d2f1f6; */
         background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
         background-size: 150px auto;
         background-repeat: repeat;
@@ -24,8 +24,16 @@
         background-size: 150px auto;
         background-repeat: repeat;
         background-blend-mode: screen;
+        background-color: #d2f1f6;
     }
 
+    .theme_village { 
+        background-image: url("resources/Screenshot 2020-05-06 at 9.01.47 PM.png");
+        background-size: 700px 1000px;
+        /* background-repeat: no-repeat; */
+        /* background-repeat: cover; */
+        /* background-blend-mode: screen; */
+    }
 
     .nav {
         display: flex;
@@ -186,6 +194,7 @@
     .textCont {
         text-align: center;
         float: left;
+        background-image: none;
         
     }
     .title {
@@ -196,15 +205,16 @@
         margin-bottom: 0px;
         padding-top: 0px;
         color: #f8e01b;
-        text-shadow: 5px 2px 2px black;
+        text-shadow: 5px 2px 2px brown;
         margin-left: 15%;
         margin-top: 0px;
+        background-image: none;
 
 
     }
 
     #bhemStatue {
-        width: auto; height: 300px; margin: 0px 40%; float: left;
+        width: auto; height: 300px; margin: 0px 40%; float: left; background-image: none;
     }
 
     #pteam {
@@ -218,8 +228,9 @@
         font-family: 'Lemonada', cursive;
         font-size: 15px;
         color: #f27820;
-        text-shadow: 1px 0px 0px black;
+        text-shadow: 1px 0px 0px brown;
         margin-left: 15%;
+        background-image: none;
     }
 
     .clear {
@@ -276,7 +287,7 @@
 
 
     * {
-        background-color: #d2f1f6;
+        /* background-color: #d2f1f6; */
         background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
         background-size: 150px auto;
         background-repeat: repeat;
@@ -299,6 +310,16 @@
         background-size: 150px auto;
         background-repeat: repeat;
         background-blend-mode: screen;
+        background-color: #d2f1f6;
+    }
+
+    .theme_village { 
+        background-image: url("resources/Screenshot 2020-05-06 at 9.01.47 PM.png");
+        background-size: 840px 770px;
+        /* background-size: contain; */
+        /* background-repeat: no-repeat; */
+        /* background-repeat: cover; */
+        /* background-blend-mode: screen; */
     }
 
 
@@ -459,6 +480,7 @@
     .textCont {
         text-align: center;
         float: left;
+        background-image: none;
         
     }
     .title {
@@ -469,14 +491,15 @@
         margin-bottom: 0px;
         padding-top: 0px;
         color: #f8e01b;
-        text-shadow: 5px 2px 2px black;
+        text-shadow: 2px 2px 2px brown;
         margin-left: 5%;
+        background-image: none;
 
 
     }
 
     #bhemStatue {
-        width: auto; height: 600px; margin: 0px 35%; float: left;
+        width: auto; height: 600px; margin: 0px 35%; float: left; background-image: none;
     }
 
     #pteam {
@@ -490,8 +513,9 @@
         font-family: 'Lemonada', cursive;
         font-size: 20px;
         color: #f27820;
-        text-shadow: 1px 0px 0px black;
+        text-shadow: 1px 1px 1px brown;
         margin-left: 5%;
+        background-image: none;
     }
 
     .clear {
@@ -547,25 +571,32 @@
 
 
 
-@media only screen and (min-width: 992px) { 
+@media only screen and (min-width: 993px) { 
 
     * {
-        background-color: #d2f1f6;
+         /* background-color: #d2f1f6; */
         background-image: url("resources/Screenshot 2020-05-02 at 3.52.07 PM.png");
         background-size: 150px auto;
         background-repeat: repeat;
-        border-radius: 20px;
-        /* background-blend-mode: screen; */
+        /* background-blend-mode: screen;  */
 
     }
 
 
     .border {
         width: 85%;
-        min-height: 750px;
+        min-height: 770px;
         /* border: 1px solid black; */
         margin-left: 10%;
         border-radius: 20px;
+    }
+
+    .theme_village { 
+        background-image: url("resources/Screenshot 2020-05-06 at 9.01.47 PM.png");
+        background-size: 1220px 770px;
+        /* background-repeat: no-repeat; */
+        /* background-repeat: cover; */
+        /* background-blend-mode: screen; */
     }
 
     .theme {
@@ -573,6 +604,7 @@
         background-size: 150px auto;
         background-repeat: repeat;
         background-blend-mode: screen;
+        background-color: #d2f1f6;
     }
 
 
@@ -589,7 +621,7 @@
 
     .nav > div {
         /* border: 1px solid black; */
-        height: 70px;
+        height: 90px;
         width: 100%;
         margin: 15px;
         background-color: #489e7e;
@@ -659,7 +691,7 @@
         /* border: 1px solid black; */
         font-family: 'Lemonada', cursive;
         font-size: 20px;
-        margin: 15px 25px;
+        margin: 25px 25px;
         background-color: #cca571;
         border-radius: 20px;
         width: 80%; 
@@ -669,6 +701,7 @@
 
     #bhemStatue {
         width: auto; height: 600px; margin: 0px 15px; float: left;
+        background-image: none;
     }
 
     .grid {
@@ -685,6 +718,7 @@
     #page_3 > .border > .grid > div {
         border: 10px solid #4b508d;
         background-image: none;
+        border-radius: 10px;
     }
 
     .grid > div:nth-child(1) {
@@ -736,6 +770,7 @@
     .textCont {
         text-align: center;
         float: left;
+        background-image: none;
         
     }
     .title {
@@ -746,7 +781,8 @@
         margin-bottom: 0px;
         padding-top: 0px;
         color: #f8e01b;
-        text-shadow: 5px 2px 2px black;
+        text-shadow: 2px 2px 2px brown;
+        background-image: none;
 
 
     }
@@ -758,7 +794,8 @@
         font-family: 'Lemonada', cursive;
         font-size: 20px;
         color: #f27820;
-        text-shadow: 1px 0px 0px black;
+        text-shadow: 1px 1px 1px brown;
+        background-image: none;
     }
 
     .showCase {
